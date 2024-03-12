@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(120,190,32);
+}
+
+.countdown {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: #FFF;
+    gap: 30px;
+}
+
+.title {
+    grid-column: 4 span;
+    text-align: center;
+    font-size: 40px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.value {
+    font-size: 80px;
+    font-weight: 700;
+
+}
+
+.name {
+    font-size: 16px;
+}
+
+.logo-leroy {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.logo-leroy img {
+    width: 20%;
+}
